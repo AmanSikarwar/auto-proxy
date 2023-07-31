@@ -1,0 +1,17 @@
+name: test
+proxy_settings:
+  host: proxy.example.com
+  port: '8080'
+  auth:
+    username: user
+    password: pass
+  protocols:
+  - Http
+  - Https
+  no_proxy:
+  - localhost.com
+  - 127.0.0.1
+  - 192.168.1.1
+auto_apply_networks:
+- SSID1
+- SSID2
