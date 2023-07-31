@@ -2,6 +2,7 @@
 
 A command line utility to change system-wide proxy settings on network change
 
+```
 Usage: auto-proxy [COMMAND]
 
 Commands:
@@ -16,3 +17,4 @@ Commands:
 Options:
   -h, --help     Print help
   -V, --version  Print version
+```
